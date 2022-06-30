@@ -12,12 +12,7 @@ h2 {
 }
 .textos{
     color: $rojo;
-}
-.textos--ent{
-    @extend .textos;
-    font-style: italic;
     font-weight: bold;
-    font-size: 2rem;
 }
 .boton {
 	width:200px;

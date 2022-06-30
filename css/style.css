@@ -13,14 +13,9 @@ h2 {
   color: rgb(180, 0, 0);
 }
 
-.textos, .textos--ent {
+.textos {
   color: rgb(180, 0, 0);
-}
-
-.textos--ent {
-  font-style: italic;
   font-weight: bold;
-  font-size: 2rem;
 }
 
 .boton {
