@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: $negro;
+}
+h2 {
+    color: $rojo;
+}
+.textos{
+    color: $rojo;
+}
+.textos--ent{
+    @extend .textos;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.boton {
+	width:200px;
+	height:50px;
+	background-color:$blanco;
+	color:$rojo;
+	border-radius:20px;
+	border:1px solid $negro;
+}
+.titulo {
+    background-color: $negro;
+    justify-content: space-evenly;
+}
+.cuadrante {
+    border: solid 1px $rojo;
+    background-color: $negro;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}

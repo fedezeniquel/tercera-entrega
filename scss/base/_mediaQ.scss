@@ -1,0 +1,30 @@
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1023px) {
+    nav {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    img {
+        width: 50%;
+        height: 40vh;
+    }
+    iframe {
+        width: 70%;
+        height: 30vh;
+    }
+}
+/* Smartphone*/
+@media (max-width: 480px){
+    nav {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    img {
+        width: 60%;
+        height: 20vh;
+    }
+    iframe {
+        width: 70%;
+        height: 30vh;
+    }
+}

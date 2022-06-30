@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: rgb(180, 0, 0);
+}
+
+.textos, .textos--ent {
+  color: rgb(180, 0, 0);
+}
+
+.textos--ent {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.boton {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  color: rgb(180, 0, 0);
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.titulo {
+  background-color: black;
+  justify-content: space-evenly;
+}
+
+.cuadrante {
+  border: solid 1px rgb(180, 0, 0);
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1023px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  img {
+    width: 50%;
+    height: 40vh;
+  }
+  iframe {
+    width: 70%;
+    height: 30vh;
+  }
+}
+/* Smartphone*/
+@media (max-width: 480px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  img {
+    width: 60%;
+    height: 20vh;
+  }
+  iframe {
+    width: 70%;
+    height: 30vh;
+  }
+}
+header {
+  text-align: center;
+  background-color: rgb(180, 0, 0);
+  padding: 10px;
+}
+header nav {
+  padding: 10px;
+  justify-content: space-evenly;
+}
+header nav li, header nav span {
+  display: inline-block;
+  padding: 10px;
+}
+header nav li li:hover, header nav span li:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+main {
+  background-color: black;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(180, 0, 0);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
